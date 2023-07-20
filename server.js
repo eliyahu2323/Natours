@@ -21,7 +21,7 @@ mongoose
   })
   .then(() => console.log('DB connection seccessful'));
 
-const port = process.env.PORT || 80;
+const port = 8080;
 const server = app.listen(port, () => {
   console.log(`App running on port ${port}...`);
 });
